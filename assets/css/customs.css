@@ -1,0 +1,128 @@
+:root {
+    --main-bg-color: #0F82B9;
+    --main-text-color: #444444;
+}
+
+
+body {
+    padding-top: 73px;
+    font-family: 'Sen',
+        sans-serif;
+}
+
+.presentacion {
+    background-image: linear-gradient(to right, rgba(23, 53, 64, .5), rgba(23, 53, 64, .8)),
+        url(../imgs/fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    display: flex;
+    align-items: center;
+
+}
+
+.caja-titulo {
+
+    text-align: center;
+}
+
+.caja-titulo .titulo {
+    font-size: 1.7rem;
+    color: #ffffff;
+    line-height: 40px;
+}
+
+.caja-titulo .botones {
+    margin-top: 20px;
+}
+
+.caja-titulo .botones .boton {
+    border: none;
+    background: var(--main-bg-color);
+    color: #ffffff;
+    padding: 10px 30px;
+    border-radius: 40px;
+}
+
+.caja-titulo .botones .boton:hover {
+    background: #0a6b99;
+    transition: .5s;
+}
+
+.caja-titulo .botones .enlace {
+    display: block;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.como-funciona {
+    padding: 40px;
+    background: #EFEFEF;
+    padding-bottom: 100px;
+}
+
+.como-funciona .como-funciona-titulo {
+    text-align: center;
+}
+
+.como-funciona .como-funciona-titulo .como-funciona-titulo-texto {
+    color: var(--main-text-color);
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+.como-funciona .item {
+    margin-top: 60px;
+}
+
+.como-funciona .item {
+    text-align: center;
+}
+
+.como-funciona .item .item-titulo {
+    margin-top: 20px;
+    color: var(--main-text-color);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.como-funciona .item .item-descripcion {
+    margin-top: 20px;
+}
+
+.servicios {
+    padding: 40px;
+}
+
+.servicios .servicios-titulo {
+    text-align: center;
+}
+
+.servicios .servicios-titulo .servicios-titulo-texto {
+    color: var(--main-text-color);
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+.servicios .card-deck {
+    margin-top: 40px;
+}
+
+.servicios .card-deck .servicio {
+    margin-top: 20px;
+}
+
+.servicios .card-deck .servicio .card {
+    border: none;
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(224, 224, 224, 1);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(224, 224, 224, 1);
+    box-shadow: 0px 4px 5px 0px rgba(224, 224, 224, 1);
+}
+
+.servicios .card-deck .servicio .card .card-title {
+    font-weight: 700;
+    color: var(--main-text-color);
+    font-size: 1.2rem;
+}
