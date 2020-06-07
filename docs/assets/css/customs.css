@@ -126,3 +126,54 @@ body {
     color: var(--main-text-color);
     font-size: 1.2rem;
 }
+
+.testimonios {
+    padding: 60px 40px;
+    background: #EFEFEF;
+}
+
+.testimonios .testimonios-titulo {
+    text-align: center;
+}
+
+.testimonios .testimonios-titulo .testimonios-titulo-texto {
+    color: var(--main-text-color);
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+.testimonios .testimonios-personas {
+    margin-top: 30px;
+}
+
+.testimonios .testimonios-personas .tarjeta {
+    border: none;
+}
+
+.testimonios .testimonios-personas .tarjeta .comentario {
+    padding: 20px;
+}
+
+.testimonios .testimonios-personas .tarjeta .comentario .persona {
+    color: var(--main-text-color);
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.testimonios .testimonios-personas .tarjeta .comentario .comentario-texto {
+    line-height: 30px;
+    color: rgb(141, 141, 141);
+    font-style: italic;
+    margin-top: 30px;
+}
+
+
+
+.testimonios .testimonios-personas .tarjeta .imagen {
+    padding: 20px;
+}
+
+.testimonios .testimonios-personas .tarjeta .imagen .servi-imagen {
+    width: 40%;
+    border-radius: 50%;
+}
