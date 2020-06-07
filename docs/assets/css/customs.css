@@ -177,3 +177,92 @@ body {
     width: 50%;
     border-radius: 50%;
 }
+
+
+.negocio .negocio-descripcion {
+    padding: 60px 40px;
+}
+
+.negocio .negocio-descripcion .negocio-descripcion-texto1 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--main-text-color);
+}
+
+.negocio .negocio-descripcion .negocio-descripcion-texto2 {
+    margin-top: 20px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--main-text-color);
+}
+
+.negocio .negocio-descripcion .negocio-descripcion-parrafo {
+    margin-top: 40px;
+    color: rgb(141, 141, 141);
+    line-height: 35px;
+}
+
+.negocio .negocio-descripcion .negocio-descripcion-boton {
+    margin-top: 20px;
+    border: none;
+    background: var(--main-bg-color);
+    color: #ffffff;
+    padding: 10px 30px;
+
+}
+
+.negocio .negocio-descripcion .negocio-descripcion-boton:hover {
+    background: #0a6b99;
+    transition: .5s;
+}
+
+.negocio .negocio-fondo {
+    background: url(../imgs/fondo1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.freelancer .freelancer-descripcion {
+    padding: 60px 40px;
+}
+
+.freelancer .freelancer-descripcion .freelancer-descripcion-texto1 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--main-text-color);
+}
+
+.freelancer .freelancer-descripcion .freelancer-descripcion-texto2 {
+    margin-top: 20px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--main-text-color);
+}
+
+.freelancer .freelancer-descripcion .freelancer-descripcion-parrafo {
+    margin-top: 40px;
+    color: rgb(141, 141, 141);
+    line-height: 35px;
+}
+
+.freelancer .freelancer-descripcion .freelancer-descripcion-boton {
+    margin-top: 20px;
+    border: none;
+    background: var(--main-bg-color);
+    color: #ffffff;
+    padding: 10px 30px;
+
+}
+
+.freelancer .freelancer-descripcion .freelancer-descripcion-boton:hover {
+    background: #0a6b99;
+    transition: .5s;
+}
+
+.freelancer .freelancer-fondo {
+    background: url(../imgs/fondo1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
